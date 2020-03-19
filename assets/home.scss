@@ -1,0 +1,38 @@
+---
+---
+@import 'resources';
+
+.section {
+  background: rgba($english-tea, .8);
+  padding: 20px 0;
+}
+
+.top-cities > p {
+  text-align: center;
+  margin: 5px 35px;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+
+  padding: 0;
+
+  a {
+    padding: 10px 15px;
+    background: $baby-blue;
+    border-radius: 20px;
+  }
+
+  p {
+    width: unset;
+  }
+}
+
+@media (min-width: 200px) {
+  .contact-me {
+    width: 50vw;
+  }
+}

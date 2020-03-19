@@ -1,0 +1,62 @@
+---
+---
+@import 'resources';
+
+html {
+  background: rgb(252,233,196);
+}
+
+body {
+  min-height: 100vh;
+}
+
+* {
+  text-align: center;
+}
+
+h1 {
+  font-family: $title-font;
+  font-weight: lighter;
+  font-size: 48px;
+  letter-spacing: 3px;
+  color: $lochness-monster;
+  margin-bottom: 0;
+}
+
+h3 {
+  font-family: $subtitle-font;
+  color: $lochness-monster;
+  font-size: 26px;
+}
+
+h2 {
+  font-family: $header-font;
+  color: $lochness-monster;
+}
+
+p, a {
+  font-family: $text-font;
+  font-weight: bold;
+  color: $lochness-monster;
+  text-align: center;
+}
+
+p {
+  margin: 5px 10px;
+}
+
+.construction {
+  color: $english-tea;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+
+  width: 50vw;
+  margin: 20px auto;
+
+  @media (min-width: 200px) {
+    width: 50vw;
+  }
+}
